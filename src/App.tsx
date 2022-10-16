@@ -18,13 +18,13 @@ function App() {
     <div>
       <Router>
         <Routes>
+          <Route path="/login" element={<Login />} />
           <Route element={<Pos />} path="/" />
           {/* <Route
             element={isLogin  ? <Pos /> : <Navigate to="/login" />}
             path="/"
           /> */}
 
-          <Route path="/login" element={<Login />} />
         </Routes>
       </Router>
     </div>

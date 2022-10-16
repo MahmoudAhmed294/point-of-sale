@@ -35,7 +35,7 @@ const Login = (props: Props) => {
       >
         <Image src={loginImg} withPlaceholder fit="fill" />
       </Grid.Col>
-      <Grid.Col sm={6} sx={{position:{base:"absolute" ,sm:"relative"}}}>
+      <Grid.Col sm={6} >
         <Container size="sm" sx={{ height: "100%" }}>
           <Stack justify={"flex-start"} sx={{ height: "inherit" }}>
           <Group  color="brand.3"  position="apart" mt={24} mb={100}>

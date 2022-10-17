@@ -38,7 +38,7 @@ const Order = ({ data }: Props) => {
           width={63}
           height={58}
         />
-        <Box sx={{ width: "75%" }}>
+        <Box sx={{ width: "70%" }}>
           <Group align={"baseline"} position="apart">
             <Text
               size={"md"}

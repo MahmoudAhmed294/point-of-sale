@@ -18,7 +18,7 @@ type Props = {
 const ScanCard = ({ card }: Props) => {
   return (
     <Grid align="center" >
-      <Grid.Col md={10}>
+      <Grid.Col md={9} lg={10}>
         <TextInput
           size="lg"
           placeholder={card ? "1234 **** **** ****" : "Enter Item code"}
@@ -28,7 +28,7 @@ const ScanCard = ({ card }: Props) => {
           }
         />
       </Grid.Col>
-      <Grid.Col md={2}>
+      <Grid.Col md={3} lg={2}>
         <Button
           size="lg"
           color={card ? "brand.3" : "brand.2"}

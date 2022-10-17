@@ -14,7 +14,7 @@ type Props = {
 
 const Product = ({ data }: Props) => {
   return (
-    <Grid.Col md={3} >
+    <Grid.Col xs={12} sm={6} md={4} lg={3} >
       <Box
         sx={{
           boxShadow: "0 3px 10px rgb(0 , 0 ,0,0.1)",
@@ -35,7 +35,7 @@ const Product = ({ data }: Props) => {
           </div>
           <Group align={"flex-end"} position="apart" mt={8}>
             <Text mb={8}>50 EGP</Text>
-            <Image src={data.image} width={80} height={70} fit="contain" />
+            <Image src={data.image} width={70} height={70} fit="contain" />
           </Group>
         </Stack>
       </Box>

@@ -12,9 +12,6 @@ import {
   Group,
 } from "@mantine/core";
 import loginImg from "../../assets/loginbg.jpg";
-import { MdPointOfSale } from "react-icons/md";
-import { useAppDispatch } from "../../utils/hooks/useStore";
-import { login } from "../../store/loginSlice";
 import loginLogo from "../../assets/loginLogo.png";
 import { useNavigate } from "react-router-dom";
 
